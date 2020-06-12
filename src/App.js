@@ -1,26 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import CarManufacturing from './lexus.js';
 
-function App() {
+
+function Toyota() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+    <CarManufacturing total ="300" model= "LC 500" />
+    <CarManufacturing total ="700" model= "RC 300" />
+    <CarManufacturing total ="500" model= "LX 570" />
     </div>
   );
 }
 
-export default App;
+export default Toyota;
