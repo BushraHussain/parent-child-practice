@@ -1,4 +1,5 @@
 import React from 'react' ;
+import Inproduction from './production';
 
 
 function CarManufacturing (props)
@@ -7,8 +8,9 @@ function CarManufacturing (props)
       <div align="center">
 
         <h1> How many cars lexus has to make today ? </h1>
-        <h2> Number of cars - {props.total} </h2>
-        <h2> Model - {props.model}</h2>
+        <p> Number of cars - {props.total} </p>
+        <p> Model - {props.model}</p>
+      <Inproduction cars={props.total} mod={props.model} />
 
          </div> 
 
